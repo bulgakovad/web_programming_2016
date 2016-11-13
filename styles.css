@@ -1,7 +1,7 @@
 body {
   background-color: rgb(176, 196, 222);
 }
-/**/
+
 header {
   text-align:center;
   border: 2px double rgb(70, 130, 180);
@@ -15,9 +15,15 @@ header {
   box-sizing: border-box;
 }
 
+.articles {
+    width: 70%;
+    margin: 0px auto;
+    position: absolute;
+    left: 12%;
+}
 
 .article_l {
-    width: 1000px;
+    width: 70%;
     box-sizing: border-box;
     border: 4px double rgb(222, 222, 242);
     border-radius: 10px;
@@ -60,7 +66,7 @@ IMG.fig {
     padding-right: 10px;
     margin: 10px 30%;
     position: relative;
-    right: 0%; 
+    right: -100px; 
     text-align: left;
 }
 
