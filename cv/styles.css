@@ -1,0 +1,107 @@
+body {
+  background-color: rgb(176, 196, 222);
+}
+
+header {
+  text-align:center;
+  border: 2px double rgb(70, 130, 180);
+  border-radius: 10px;
+  background-color: rgb(222, 222, 242);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30pt;
+  font-weight: bold;
+  color: rgb(70, 130, 180);
+  margin: 20px 40%;
+  box-sizing: border-box;
+}
+
+
+.article_l {
+    width: 1000px;
+    box-sizing: border-box;
+    border: 4px double rgb(222, 222, 242);
+    border-radius: 10px;
+    background-color: rgb(222, 222, 242);
+    padding: 10px;
+    padding-left: 10px;
+    text-align: right;
+}
+
+
+IMG.fig {
+    float: left;   
+}
+
+.article_l > .header > .title {
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+.article_l > .header > .subtitle {
+    font-size: 16pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.article_l > .header > .body {
+    font-size: 12pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.article_r {
+    width: 70%;
+    box-sizing: border-box;
+    border: 4px double rgb(222, 222, 242);
+    border-radius: 10px;
+    background-color: rgb(222, 222, 242);
+    padding: 10px;
+    padding-right: 10px;
+    margin: 10px 30%;
+    position: relative;
+    right: 0%; 
+    text-align: left;
+}
+
+.article_r > .header > .title {
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+.article_r > .header > .subtitle {
+    font-size: 16pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.article_r > .header > .body {
+    font-size: 12pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.article_c {
+    width: 70%;
+    box-sizing: border-box;
+    border: 4px double rgb(222, 222, 242);
+    border-radius: 10px;
+    background-color: rgb(222, 222, 242);
+    padding: 10px;
+    margin: 10px 15%;
+    text-align: center;
+}
+
+.article_c > .header > .title {
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+
+.article_c > .header > .body {
+    font-size: 12pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
